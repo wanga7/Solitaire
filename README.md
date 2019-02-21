@@ -24,5 +24,5 @@ This is a web application for solitaire games, where you can play Klondykes.
 	 - `$npm run start`
 - Open the browser and go to `localhost:8080`.
 
-## Deployed Version
-http://cardgame.anjie169.co.uk:8080/
+## An Old Deployed Version
+This is an old deployed version (which does not display the newest features): http://cardgame.anjie169.co.uk:8080/
