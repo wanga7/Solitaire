@@ -97,7 +97,7 @@ const setupServer = async () => {
     };
     // Listen for HTTPS requests
     server = https.createServer(options, app).listen(port, () => {
-      console.log(`Secure Assignment 6 listening on: ${server.address().port}`);
+      console.log(`Secure Solitaire Project listening on: ${server.address().port}`);
     });
     // Redirect HTTP to HTTPS
     http
@@ -108,11 +108,11 @@ const setupServer = async () => {
         res.end();
       })
       .listen(80, () => {
-        console.log(`Assignment 6 listening on 80 for HTTPS redirect`);
+        console.log(`Solitaire Project listening on 80 for HTTPS redirect`);
       });
   } else {
     server = app.listen(port, () => {
-      console.log(`Assignment 6 ${env} listening on: ${server.address().port}`);
+      console.log(`Solitaire Project ${env} listening on: ${server.address().port}`);
     });
   }
 };

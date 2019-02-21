@@ -1,7 +1,7 @@
 {
-  "name": "assignment6",
+  "name": "Solitaire",
   "version": "1.0.0",
-  "description": "Assignment 6",
+  "description": "Solitaire Project",
   "main": "/src/server/index.js",
   "dependencies": {
     "body-parser": "^1.18.3",
@@ -24,7 +24,7 @@
     "underscore": "^1.9.1"
   },
   "scripts": {
-    "build": "webpack",
+    "build": "webpack -w",
     "start": "node ./src/server/index.js",
     "start-test": "NODE_ENV=test node ./src/server/index.js",
     "test": "NODE_ENV=test mocha --recursive"
